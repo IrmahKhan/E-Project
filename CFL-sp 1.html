@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <header>
+    <div class="top-bar">
+      <div class="left-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="right-note">
+        <i class="fas fa-bolt"></i> Free Delivery & Installation
+      </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">HARVEL</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <div class="dropdown-item">
+                  <img src="assets/images/fans/1.jpg" alt="CFL" class="dropdown-img">
+                  <a href="fans.html">Fans</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/CFL/1.jpg" alt="CFL" class="dropdown-img">
+                  <a href="CFL.html">CFL</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Geysers/1.jpg" alt="CFL" class="dropdown-img">
+                  <a href="Geysers.html">Geysers</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Split AC/1.jpg" alt="CFL" class="dropdown-img">
+                  <a href="Split AC.html">Split AC</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Refrigerator/1.webp" alt="CFL" class="dropdown-img">
+                  <a href="Refrigerator.html">Refrigerator</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Smart TV/1.jpg" alt="CFL" class="dropdown-img">
+                  <a href="Smart TV.html">Smart TV</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Water Dispensers/2.jpg" alt="CFL" class="dropdown-img">
+
+                  <a href="Water Dispensers.html">Water Dispenser</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Washing machine/1.webp" alt="CFL" class="dropdown-img">
+
+                  <a href="Washing Machine.html">Washing Machine</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Microwave Oven/2.jpg" alt="CFL" class="dropdown-img">
+
+                  <a href="Microwave Oven.html">Microwave Oven</a>
+                </div>
+                <div class="dropdown-item">
+                  <img src="assets/images/Vaccum Cleaner/1.jpg" alt="CFL" class="dropdown-img">
+
+                  <a href="Vaccum Cleaner.html">Vaccum Cleaner</a>
+                </div>
+              </ul>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-form.html">Contact Us</a>
+            </li>
+
+          </ul>
+          <div class=" d-flex gap-3">
+            <i class="fas fa-user"></i>
+            <i class="fas fa-wrench"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+        </div>
+      </div>
+
+
+
+    </nav>
+
+
+
+  </header>
+
+  
+ <script src="app.js"></script>
+  
+    <div class="container">
+
+    <div class="product-image">
+      <img id="main-image" src="assets/cfl1.jpeg" alt="Product Image" />
+    </div>
+
+    <div class="product-details">
+      <h2 class="brand"></h2>
+      <h1 class="title">Harvel BrightGlow 20W</h1>
+      <p id="price" class="price">Rs.  220</p>
+
+      <div class="color-selector">
+        <label>Color:</label>
+        <div class="color-options">
+          <span class="color-circle active" style="background:rgb(39, 1, 162);"
+                data-image="assets/cfl1.jpeg"
+                data-price="Rs. 220"></span>
+          <span class="color-circle" style="background:rgb(255, 207, 34);"
+                data-image="assets/cfl2.jpeg"
+                data-price="Rs. 250"></span>
+          <span class="color-circle" style="background:rgb(1, 95, 1);"
+                data-image="c:\Users\MAK\Downloads\E-Projectiui\assets\cfl3.jpg"
+                data-price="Rs. 230"></span>
+        </div>
+      </div>
+
+      <div class="series">
+        <p><strong>Series:</strong> Elite Series</p>
+        <p><strong>Type:</strong> Inverter</p>
+      </div>
+
+      <div class="quantity-control">
+        <button id="minus">-</button>
+        <input type="number" id="quantity" value="1" min="1"/>
+        <button id="plus">+</button>
+      </div>
+
+      <p class="delivery">Delivery Time: 4–7 Working Days</p>
+
+      <div class="buttons">
+        <button class="add">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+      </div>
+
+    
+
+    </div>
+    
+</div>
+  
+  <footer class="footer">
+  <div class="footer-wrapper">
+    <div class="footer-section products">
+      <h4>Products</h4>
+       <ul class="product-list">
+        <li><a href="fans.html">Fans</a></li>
+        <li><a href="CFL.html">CFL</a></li>
+        <li><a href="Geysers.html">Geysers</a></li>
+        <li><a href="Split AC.html">Split AC</a></li>
+        <li><a href="Refrigerator.html">Refrigerator</a></li>
+        <li><a href="Smart TV-sp 1.html">Smart TV</a></li>
+        <li><a href="Water Dispensers.html">Water Dispenser</a></li>
+        <li><a href="Washing Machine.html">Washing Machine</a></li>
+        <li><a href="Microwave Oven.html">Microwave Oven</a></li>
+        <li><a href="Vaccum Cleaner.html">Vaccum Cleaner</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h4>Stay Connected</h4>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="contact-info">
+        <p><i class="fab fa-whatsapp"></i> +92-337-330-3297</p>
+        <p><i class="fas fa-headphones-alt"></i> 021 111 11 7359 (RELY)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+   <p>Designed & Developed with ❤️ by Uroosa and Irmah | © 2025 All rights reserved.</p>
+
+  </div>
+</footer>
+ 
+
+</body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="jquery-3.7.1.min.js"></script>
+
+
+<script>
+// Quantity control
+const minus = document.getElementById("minus");
+const plus = document.getElementById("plus");
+const qty = document.getElementById("quantity");
+
+minus.addEventListener("click", () => {
+  let value = parseInt(qty.value);
+  if (value > 1) qty.value = value - 1;
+});
+
+plus.addEventListener("click", () => {
+  let value = parseInt(qty.value);
+  qty.value = value + 1;
+});
+
+// Color + image + price switch
+const colorCircles = document.querySelectorAll(".color-circle");
+const mainImage = document.getElementById("main-image");
+const priceText = document.getElementById("price");
+
+colorCircles.forEach(circle => {
+  circle.addEventListener("click", () => {
+    // Change image
+    const imgSrc = circle.getAttribute("data-image");
+    const newPrice = circle.getAttribute("data-price");
+
+    mainImage.src = imgSrc;
+    priceText.textContent = newPrice;
+
+    // Highlight selected color
+    colorCircles.forEach(c => c.classList.remove("active"));
+    circle.classList.add("active");
+  });
+});
+</script>
+
+ <script>
+  const cartCount = document.getElementById("cart-count");
+  const addToCartBtn = document.querySelector(".add"); // your "Add to Cart" button
+  const qtyInput = document.getElementById("quantity"); // your quantity input
+
+  addToCartBtn.addEventListener("click", () => {
+    let current = parseInt(cartCount.textContent);
+    let added = parseInt(qtyInput.value);
+    cartCount.textContent = current + added;
+  });
+</script>
+
+
+
+
+
+</html>
